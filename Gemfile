@@ -30,6 +30,11 @@ gem 'turbolinks'
 # Use Unicorn as the app server
 gem 'unicorn'
 
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
+
+gem 'thinking-sphinx'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -47,6 +52,3 @@ group :development do
   gem 'rvm-capistrano'
   gem 'capistrano'
 end
-
-gem 'thinking-sphinx'
-
