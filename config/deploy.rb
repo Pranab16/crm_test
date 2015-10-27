@@ -22,7 +22,7 @@ load "config/recipes/unicorn"
 #load "config/recipes/solr"
 
 #Redis
-load "config/recipes/redis"
+#load "config/recipes/redis"
 
 # MySQL
 load "config/recipes/mysql"
@@ -31,7 +31,7 @@ load "config/recipes/mysql"
 # load "config/recipes/memcached"
 
 # JS env
-load "config/recipes/nodejs"
+#load "config/recipes/nodejs"
 
 # Logrotate
 load "config/recipes/logrotate"
@@ -40,10 +40,10 @@ load "config/recipes/logrotate"
 load "config/recipes/rake"
 
 # Delayed Job
-load "config/recipes/delayed_job"
+#load "config/recipes/delayed_job"
 
 # Rpush
-load "config/recipes/rpush"
+#load "config/recipes/rpush"
 
 # Memcached
 # load "config/recipes/memcached"
@@ -55,10 +55,10 @@ load "config/recipes/rpush"
 # load "config/recipes/upstart"
 
 # Whenever
-load "config/recipes/whenever"
+#load "config/recipes/whenever"
 
 # Airbrake
-load "config/recipes/airbrake"
+#load "config/recipes/airbrake"
 
 # Rollbar
 #load "config/recipes/rollbar"
@@ -71,7 +71,7 @@ load "config/recipes/check"
 
 # Change as per your application
 set :application, "crm"
-set :repository,  "git@github.com:Pranab16/crm_test.git"
+set :repository,  "https://github.com/Pranab16/crm_test.git"
 
 # Don't change this
 set :stages, %w(production staging)

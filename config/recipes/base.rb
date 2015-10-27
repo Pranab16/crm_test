@@ -16,6 +16,6 @@ namespace :deploy do
   task :install do
     run "#{sudo} apt-get -y update"
     run "#{sudo} apt-get -y upgrade"
-    run "#{sudo} apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties gnupg2 mysql-client libmysqlclient-dev sphinxsearch"
+    run "#{sudo} apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties gnupg2 mysql-client libmysqlclient-dev sphinxsearch"
   end
 end
