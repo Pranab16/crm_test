@@ -34,7 +34,10 @@ gem 'execjs'
 gem 'therubyracer', :platforms => :ruby
 
 gem 'thinking-sphinx'
-gem 'rails_12factor', group: :production
+group :production do
+  gem 'pg'
+  gem 'rails_12factor', '0.0.2'
+end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
